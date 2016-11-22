@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E61071F91DE2D01700BCDDFA /* WaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = E61071F81DE2D01700BCDDFA /* WaterWaveView.m */; };
 		E6309B7E1DDEEC41005D59FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6309B7D1DDEEC41005D59FB /* main.m */; };
 		E6309B811DDEEC41005D59FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6309B801DDEEC41005D59FB /* AppDelegate.m */; };
 		E6309B841DDEEC41005D59FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6309B831DDEEC41005D59FB /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		E6309B8C1DDEEC41005D59FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6309B8A1DDEEC41005D59FB /* LaunchScreen.storyboard */; };
 		E6309B971DDEEC41005D59FB /* WaterWaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6309B961DDEEC41005D59FB /* WaterWaveTests.m */; };
 		E6309BA21DDEEC41005D59FB /* WaterWaveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6309BA11DDEEC41005D59FB /* WaterWaveUITests.m */; };
+		E6309BB11DDEEC69005D59FB /* WaterWaveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E6309BB01DDEEC69005D59FB /* WaterWaveLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E61071F71DE2D01700BCDDFA /* WaterWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterWaveView.h; sourceTree = "<group>"; };
+		E61071F81DE2D01700BCDDFA /* WaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterWaveView.m; sourceTree = "<group>"; };
 		E6309B791DDEEC41005D59FB /* WaterWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6309B7D1DDEEC41005D59FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E6309B7F1DDEEC41005D59FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		E6309B9D1DDEEC41005D59FB /* WaterWaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterWaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6309BA11DDEEC41005D59FB /* WaterWaveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterWaveUITests.m; sourceTree = "<group>"; };
 		E6309BA31DDEEC41005D59FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6309BAF1DDEEC69005D59FB /* WaterWaveLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterWaveLayer.h; sourceTree = "<group>"; };
+		E6309BB01DDEEC69005D59FB /* WaterWaveLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterWaveLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				E6309B801DDEEC41005D59FB /* AppDelegate.m */,
 				E6309B821DDEEC41005D59FB /* ViewController.h */,
 				E6309B831DDEEC41005D59FB /* ViewController.m */,
+				E61071F71DE2D01700BCDDFA /* WaterWaveView.h */,
+				E61071F81DE2D01700BCDDFA /* WaterWaveView.m */,
+				E6309BAF1DDEEC69005D59FB /* WaterWaveLayer.h */,
+				E6309BB01DDEEC69005D59FB /* WaterWaveLayer.m */,
 				E6309B851DDEEC41005D59FB /* Main.storyboard */,
 				E6309B881DDEEC41005D59FB /* Assets.xcassets */,
 				E6309B8A1DDEEC41005D59FB /* LaunchScreen.storyboard */,
@@ -274,7 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6309B841DDEEC41005D59FB /* ViewController.m in Sources */,
+				E61071F91DE2D01700BCDDFA /* WaterWaveView.m in Sources */,
 				E6309B811DDEEC41005D59FB /* AppDelegate.m in Sources */,
+				E6309BB11DDEEC69005D59FB /* WaterWaveLayer.m in Sources */,
 				E6309B7E1DDEEC41005D59FB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +517,7 @@
 				E6309BA81DDEEC41005D59FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6309BA91DDEEC41005D59FB /* Build configuration list for PBXNativeTarget "WaterWaveTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				E6309BAB1DDEEC41005D59FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6309BAC1DDEEC41005D59FB /* Build configuration list for PBXNativeTarget "WaterWaveUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				E6309BAE1DDEEC41005D59FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
